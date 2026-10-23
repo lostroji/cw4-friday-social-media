@@ -6,6 +6,11 @@
     max-width: 375px
 }
 
+.container {
+    max-width: 375px;
+    margin: auto;
+}
+
 .title-discover {
     font-size: 65px;
 }
