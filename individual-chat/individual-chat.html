@@ -3,9 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Individual Chat</title>
+    <link rel="stylesheet" href="individual-chat.css">
+    <link rel="stylesheet" href="../tap-bar/tap-bar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+<div class="container">
+    <section>
+        <header class="navigation-bar">
+            <div class="left-action">
+                <a href="../chats.html" class="go-back">
+                    <img src="img/Chevron.svg" alt="go-back">
+                </a>
+            </div>
+            <div class="title">
+                <span>James</span>
+            </div>
+            <div class="right-action"></div>
+        </header>
+        <main class="message-section">
+            <div class="user-message">
+                <img src="img/user.png" alt="user" class="avatar">
+                <div class="message-container-user">
+                    <p>Really love your most recent photo. I’ve been trying to capture the same thing for a few months and would love some tips!</p>
+                </div>
+            </div>
+            <div class="self-message">
+                <img src="img/self.png" alt="self" class="avatar">
+                <div class="message-container-self">
+                    <p>A fast 50mm like f1.8 would help with the bokeh. I’ve been using primes as they tend to get a bit sharper images.</p>
+                </div>
+            </div>
+            <div class="user-message">
+                <img src="img/user.png" alt="user" class="avatar">
+                <div class="message-container-user">
+                    <p>Thank you! That was very helpful!</p>
+                </div>
+            </div>
+        </main>
+
+    </section>
+
+    <footer class="tap-bar">
+        <a href="../discover.html" class="tap-bar-link">
+            <img src="../tap-bar/img/home.svg" alt="profile">
+        </a>
+        <a href="../search.html" class="tap-bar-link">
+            <img src="../tap-bar/img/search.svg" alt="search">
+        </a>
+        <a href="../index.html" class="tap-bar-link">
+            <img src="../tap-bar/img/new.svg" alt="new">
+        </a>
+        <a href="../index.html" class="tap-bar-link">
+            <img src="../tap-bar/img/chats.svg" alt="chats">
+        </a>
+        <a href="../index.html" class="tap-bar-link">
+            <img src="../tap-bar/img/profile.svg" alt="profile">
+        </a>
+    </footer>
+</div>
+
 </body>
 </html>
