@@ -33,10 +33,10 @@ gap: 24px;
     object-fit: cover;
 }
 .see-more-button{
-    padding: 20px;
+    padding: 18px;
     width: 377px;
     color:black ;
     background-color: #fff;
     border: black solid 3px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
