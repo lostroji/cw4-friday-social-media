@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.main-size {
+    max-width: 375px;
+}
+
 .top-section-flex {
     display: flex;
     flex-direction: column;
@@ -31,7 +35,12 @@
     gap: 16px;
     align-items: center;
     justify-items: center;
+    padding: 0 16px;
 
+}
+
+.button-div {
+    width: 100%;
 }
 
 .title-typography {
@@ -43,14 +52,15 @@
     font-size: 13px;
     text-align: center;
     font-family: Roboto, serif;
+    font-weight: bold;
 }
 
 .solid-button,
 .outline-button {
-    width: 343px;
-    height: 52px;
     padding: 16px 8px;
-    border-radius: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 100%;
 }
 
 .solid-button {
@@ -60,4 +70,96 @@
 
 .outline-button {
     border: 2px solid #000000;
+    background-color: #fff;
 }
+
+.bottom-section-padding-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 16px;
+}
+
+.collage-grid-div {
+    display: grid;
+    row-gap: 10px;
+    column-gap: 9px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo-div-1-1 {
+    grid-area: 1 / 1 / 2 / 2;
+    overflow: clip;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.photo-div-1-2 {
+    grid-area: 1 / 2 / 4 / 2;
+    overflow: clip;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.photo-div-2-1 {
+    grid-area: 2 / 1 / 5 / 2;
+    overflow: clip;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.photo-div-2-2 {
+    grid-area: 4 / 2 / 7 / 4;
+    overflow: clip;
+    object-fit: cover;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.photo-div-3-1 {
+    grid-area: 5 / 1 / 7 / 2;
+    overflow: clip;
+    object-fit: cover;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.photo-div-3-2 {
+    grid-area: 4 / 2 / 7 / 4;
+    overflow: clip;
+    object-fit: cover;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.last-button-size {
+    width: 100%;
+}
+
+
+
